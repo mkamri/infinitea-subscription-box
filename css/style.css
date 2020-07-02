@@ -1,0 +1,305 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: #fffefa;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: .06rem;
+  color: #102527; }
+
+.section {
+  margin-bottom: 6rem;
+  padding: 0 2rem; }
+
+.btn {
+  border-radius: 0; }
+
+.btn-info {
+  background: #4D6A3B;
+  border: none;
+  padding: 8px 40px;
+  font-weight: 700;
+  letter-spacing: .1rem; }
+  .btn-info:hover {
+    background: #CCDBC3;
+    color: #4D6A3B; }
+
+.btn-light {
+  border: none;
+  padding: 8px 40px;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  color: #102527;
+  font-family: 'Merriweather', serif; }
+  .btn-light:hover {
+    background: #4D6A3B;
+    color: #EAEAEA; }
+
+.overlap-btn {
+  margin-top: -1.5rem; }
+
+h1 {
+  font-family: 'Merriweather', serif;
+  line-height: 3.5rem; }
+
+p {
+  line-height: 1.9rem; }
+
+.navbar-brand {
+  font-family: 'Merriweather', serif;
+  letter-spacing: .2rem; }
+
+.nav-item {
+  font-family: 'Merriweather', serif;
+  font-size: .8rem; }
+  .nav-item a {
+    color: #102527;
+    transition: color .3s ease-in; }
+    .nav-item a:hover {
+      text-decoration: none;
+      color: #4D6A3B;
+      text-shadow: 2px 2px 8px #EAEAEA; }
+
+footer {
+  font-size: .8rem;
+  background-color: #EAEAEA; }
+  footer a {
+    font-weight: 700;
+    color: #4D6A3B;
+    transition: color .3s ease-in; }
+    footer a:hover {
+      color: #CCDBC3;
+      text-decoration: none; }
+
+#homepage-hero {
+  height: 30rem;
+  background-image: url(images/home/hero.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover; }
+
+.hero-transparent {
+  padding: 1.3rem;
+  background: #ffffff86; }
+
+.how-it-works-item {
+  margin-bottom: 3rem; }
+  .how-it-works-item img {
+    width: 50%;
+    border-radius: 500px;
+    margin-bottom: 1rem; }
+  .how-it-works-item p {
+    font-size: .9rem;
+    margin-bottom: .6rem; }
+
+#quote {
+  background: #CCDBC3;
+  padding: 3rem; }
+
+.quote-text {
+  font-size: 1.2rem;
+  font-family: 'Merriweather', serif;
+  line-height: 2.5rem;
+  text-align: center; }
+
+.about-us-item {
+  height: 350px;
+  width: 100%;
+  background-color: #EAEAEA; }
+
+.about-us-img {
+  background-image: url(images/home/about.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover; }
+
+.our-values-img {
+  background-image: url(images/home/values.jpg);
+  background-position: right;
+  background-repeat: none;
+  background-size: cover; }
+
+#get-started-hero {
+  height: 30rem;
+  background-image: url(images/quiz/hero.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover; }
+
+.quiz-card {
+  height: 12rem;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  margin: 1.3rem;
+  padding: 0;
+  transition: .3s ease; }
+  .quiz-card p {
+    margin: 0;
+    padding: 2px 35px;
+    background-color: #ffffff86;
+    font-family: 'Merriweather', 'serif';
+    font-weight: 700; }
+  .quiz-card:hover {
+    box-shadow: 0 0 10px #707070;
+    cursor: pointer; }
+
+.quiz-card-selected {
+  box-shadow: 0 0 10px #4D6A3B; }
+  .quiz-card-selected p {
+    z-index: 2; }
+  .quiz-card-selected:after {
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #ffffff86; }
+
+.not-sure {
+  background-color: #EAEAEA; }
+
+.type-black {
+  background-image: url(images/quiz/black.jpg); }
+
+.type-green {
+  background-image: url(images/quiz/green.jpg); }
+
+.type-herbal {
+  background-image: url(images/quiz/herbal.jpg); }
+
+.type-white {
+  background-image: url(images/quiz/white.jpg); }
+
+.type-oolong {
+  background-image: url(images/quiz/oolong.jpg); }
+
+.type-puerh {
+  background-image: url(images/quiz/puerh.jpg); }
+
+.type-matcha {
+  background-image: url(images/quiz/matcha.jpg); }
+
+.flavor-pure {
+  background-image: url(images/quiz/pure.jpg); }
+
+.flavor-floral {
+  background-image: url(images/quiz/floral.jpg); }
+
+.flavor-fruity {
+  background-image: url(images/quiz/fruity.jpg); }
+
+.flavor-spices {
+  background-image: url(images/quiz/spices.jpg); }
+
+.add-honey {
+  background-image: url(images/quiz/honey.jpg); }
+
+.add-sugar {
+  background-image: url(images/quiz/sugar.jpg); }
+
+.add-cream {
+  background-image: url(images/quiz/cream.jpg); }
+
+.add-lemon {
+  background-image: url(images/quiz/lemon.jpg); }
+
+.add-nothing {
+  background-image: url(images/quiz/pure.jpg); }
+
+.high-caffeine {
+  background-color: #4D6A3B; }
+
+.medium-caffeine {
+  background-color: #CCDBC3; }
+
+.low-caffeine {
+  background-color: #EAEAEA; }
+
+.no-caffeine {
+  background-color: #fffefa;
+  border: 1px solid #EAEAEA; }
+
+.recommendation-img {
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  margin-right: 1rem;
+  margin-bottom: 2rem; }
+
+.subscribe-title h1 {
+  font-size: 2rem; }
+
+.box-card {
+  margin: 2rem;
+  padding: 1rem;
+  box-shadow: 0 0 3px #8d8d8d; }
+  .box-card p {
+    margin-bottom: 2rem; }
+
+.box-card-selected {
+  box-shadow: 0 0 10px #4D6A3B; }
+  .box-card-selected .card-content .select-button {
+    background-color: #4D6A3B;
+    color: #fffefa; }
+    .box-card-selected .card-content .select-button:hover {
+      background-color: #fffefa;
+      color: #4D6A3B; }
+
+.subscribe-image {
+  height: 15rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover; }
+
+.seasonal-box {
+  background-image: url(images/subscribe/sampler.jpg); }
+
+.caffeine-box {
+  background-image: url(images/subscribe/caffeine.jpg); }
+
+.chillax-box {
+  background-image: url(images/subscribe/chillax.jpg); }
+
+.fun-box {
+  background-image: url(images/subscribe/fun.jpg); }
+
+.subscription-card {
+  padding: 1rem;
+  box-shadow: 0 0 3px #8d8d8d; }
+
+.subscription-card-selected {
+  box-shadow: 0 0 10px #4D6A3B; }
+  .subscription-card-selected .select-button {
+    background-color: #4D6A3B;
+    color: #fffefa; }
+    .subscription-card-selected .select-button:hover {
+      background-color: #fffefa;
+      color: #4D6A3B; }
+
+#checkout-box {
+  background: #CCDBC3;
+  padding: 3rem; }
+
+.checkout-title {
+  font-family: 'Merriweather', serif; }
+
+.checkout-transparent {
+  padding: 2rem 4rem; }
+
+@media screen and (max-width: 768px) {
+  .subscribe-card {
+    margin: 2rem 0;
+    padding: 2rem; }
+    .subscribe-card p {
+      margin-bottom: 2rem; }
+  .subscribe-image {
+    margin-bottom: 2rem; } }
